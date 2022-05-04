@@ -387,7 +387,7 @@ img.lab-description {
 }
 
 .support-title:before {
-  content: counter(support-count) ".";
+  content: counter(support-count) ". ";
 }
 
 .support-content:before {
