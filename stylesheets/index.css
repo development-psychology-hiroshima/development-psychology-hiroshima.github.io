@@ -188,6 +188,7 @@ li > a,
 #container-misc-info {
   position: sticky;
   top: calc(clamp(10vh, 6vh, 110px) + 3vh);
+  min-width: max-content;
   height: fit-content;
   grid-area: contact;
 }
@@ -313,7 +314,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1024px) {
   .container-index-contents {
     grid-template-areas: "navigation main-content contact";
     grid-template-columns: minmax(80px, 0.4fr) 2.3fr 1fr;
