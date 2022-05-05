@@ -1,41 +1,50 @@
 {
-  "name": "広島大学発達心理学研究室",
-  "short_name": "広大発達研",
-  "description": "広島大学発達心理学研究室HP",
-  "icons": [
-    {
-      "src": "./favicons/favicon-16x16.png",
-      "sizes": "16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "./favicons/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "./favicons/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./favicons/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./favicons/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./favicons/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#0099FF",
-  "background_color": "#ffffff",
-  "display": "browser",
-  "start_url": "index.html"
+  "index.html": {
+    "file": "assets/index.c06ffca2.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig.1a4f2903.js"
+    ],
+    "css": [
+      "assets/index.17e30107.css"
+    ]
+  },
+  "members.html": {
+    "file": "assets/members.931d9ff9.js",
+    "src": "members.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig.1a4f2903.js"
+    ],
+    "css": [
+      "assets/members.f577e044.css"
+    ]
+  },
+  "research_activity_students.html": {
+    "file": "assets/research_activity_students.37f87550.js",
+    "src": "research_activity_students.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig.1a4f2903.js"
+    ],
+    "css": [
+      "assets/research_activity_students.90ccb25b.css"
+    ]
+  },
+  "_getConfig.1a4f2903.js": {
+    "file": "assets/getConfig.1a4f2903.js",
+    "css": [
+      "assets/getConfig.48161c85.css"
+    ],
+    "assets": [
+      "assets/banner.6f1206a8.svg"
+    ]
+  },
+  "_common.1b759ff7.js": {
+    "file": "assets/common.1b759ff7.js",
+    "imports": [
+      "_getConfig.1a4f2903.js"
+    ]
+  }
 }
