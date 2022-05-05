@@ -161,9 +161,9 @@ li > a,
 
 .container-index-contents {
   display: grid;
-  margin: 0 2rem;
+  margin: 0 clamp(2rem, calc((100vw - 1500px) / 2) ,50vw);
   grid-template-areas: "navigation main-content contact";
-  grid-template-columns: 1fr 2.3fr 1fr;
+  grid-template-columns: 0.4fr 2.3fr 1fr;
   grid-column-gap: 2rem;
   max-width: 1500px;
 }
@@ -307,9 +307,16 @@ h3 {
     margin: 1.5rem;
     grid-template-areas:
       "main-content"
-      "contact";
-    grid-template-columns: 1fr;
+      "contact" !important;
+    grid-template-columns: 1fr !important;
     grid-template-rows: max-content;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .container-index-contents {
+    grid-template-areas: "navigation main-content contact";
+    grid-template-columns: minmax(80px, 0.4fr) 2.3fr 1fr;
   }
 }
 
