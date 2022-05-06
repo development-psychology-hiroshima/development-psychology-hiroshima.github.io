@@ -126,6 +126,7 @@ li > a,
   font-weight: bold;
   width: fit-content;
   transform: translateY(2vh);
+  text-shadow: 0 0 12px black;
 }
 
 .welcome-1:after {
