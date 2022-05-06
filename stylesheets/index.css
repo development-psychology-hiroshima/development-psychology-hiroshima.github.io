@@ -1,8 +1,8 @@
 html,
 body {
   font-family: "Noto Sans JP", "Hiragino Sans", "游ゴシック Medium",
-    "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3",
-    "メイリオ", sans-serif;
+    "Yu Gothic Medium", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3",
+    メイリオ, "Microsoft YaHei", 微软雅黑, sans-serif;
   color: #494949;
   background: #f2f2f2;
   scroll-behavior: smooth;
@@ -161,7 +161,7 @@ li > a,
 
 .container-index-contents {
   display: grid;
-  margin: 0 clamp(2rem, calc((100vw - 1500px) / 2) ,50vw);
+  margin: 0 clamp(2rem, calc((100vw - 1500px) / 2), 50vw);
   grid-template-areas: "navigation main-content contact";
   grid-template-columns: 0.4fr 2.3fr 1fr;
   grid-column-gap: 2rem;
