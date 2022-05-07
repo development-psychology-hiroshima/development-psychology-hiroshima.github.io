@@ -1,8 +1,8 @@
 html,
 body {
   font-family: "Noto Sans JP", "Hiragino Sans", "游ゴシック Medium",
-    "Yu Gothic Medium", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3",
-    メイリオ, "Microsoft YaHei", 微软雅黑, sans-serif;
+    "Yu Gothic Medium", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3", メイリオ,
+    "Microsoft YaHei", 微软雅黑, sans-serif;
   color: #494949;
   background: #f2f2f2;
   scroll-behavior: smooth;
@@ -202,10 +202,10 @@ li > a,
   align-items: center;
 }
 
-h2,
-h3,
-h4 {
-  width: fit-content;
+h2 span,
+h3 span,
+h3 span a,
+h4 span {
   background: linear-gradient(
     to top,
     transparent 5%,
@@ -214,6 +214,10 @@ h4 {
     #bfd08c 40%,
     transparent 0%
   );
+}
+
+a {
+  width: fit-content;
 }
 
 h2 {
@@ -403,7 +407,7 @@ img.lab-description {
   content: "　" !important;
 }
 
-span.highlight {
+mark {
   background: linear-gradient(
     to top,
     transparent 5%,
@@ -412,6 +416,7 @@ span.highlight {
     #bfd08c 40%,
     transparent 0%
   );
+  color: inherit;
 }
 
 .no-before:before {
@@ -463,6 +468,12 @@ span.highlight {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .introduction-image {
