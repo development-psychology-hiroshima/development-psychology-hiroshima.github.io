@@ -319,7 +319,7 @@ obog:
         content: <a href="https://www.earaonline.org/" target="_blank">https://www.earaonline.org/</a>
       -
         title: 教育・研究業績一覧 (Curriculum vitae)
-        content: <a href="rese/Shogo_Hihara/教育・研究業績書_20210817.pdf" download="教育・研究業績書_20210817.pdf" target="教育・研究業績書_20210817.pdf">日本語</a>／<a href="rese/Shogo_Hihara/CV_Shogo Hihara _20210817.pdf" download="CV_Shogo Hihara _20210817.pdf" target="CV_Shogo Hihara _20210817.pdf">English</a>
+        content: <a href="rese/Shogo_Hihara/教育・研究業績書_20210817.pdf" download="教育・研究業績書_20210817.pdf" target="教育・研究業績書_20210817.pdf">日本語</a>／<a href="rese/Shogo_Hihara/CV_Shogo Hihara _20210817.pdf" download="CV_Shogo Hihara _20210817.pdf" target="_blank">English</a>
   -
     name: 岩佐 康弘
     position: 梅光学院大学 講師（2021年度博士号取得）
@@ -340,7 +340,7 @@ obog:
     others:
       -
         title: 修士論文題目
-        content: <a href="rese/rese/abstract/ryousin_asai2018.pdf" target="ryousin_asai2018" download="両親間葛藤のある青年の情緒的自立と適応の観点">両親間葛藤のある青年の情緒的自立と適応の観点</a>
+        content: <a href="rese/rese/abstract/ryousin_asai2018.pdf" target="_blank" download="両親間葛藤のある青年の情緒的自立と適応の観点">両親間葛藤のある青年の情緒的自立と適応の観点</a>
       -
         title: 進路
         content: 民間企業（ウェディング）

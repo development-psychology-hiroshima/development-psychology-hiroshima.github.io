@@ -109,7 +109,7 @@ bachelors:
   -
     title: 青年の否定的アイデンティティ選択過程の検討
     url: https://development.hiroshima-u.ac.jp/rese/abstract/2014negativeidentity_hihara.pdf
-  # 以下は、一つのアイテム（title）しかいない時のもう一つの書き方
+  # 以下は、titleしかいない時のもう一つの書き方。どちらでも大丈夫です
   - title: 大学生の読書行動に関する心理学的研究
   - title: いじめられた体験における自己成長感獲得を促進する他者からの支援の検討
   - title: 青年期の劣等感に内省への取り組み方と未来展望が与える影響

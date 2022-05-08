@@ -1,13 +1,13 @@
 {
   "index.html": {
-    "file": "assets/index.f294eee9.js",
+    "file": "assets/index.2918ca23.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
       "_getConfig.1f65d71e.js"
     ],
     "css": [
-      "assets/index.ae57f0ad.css"
+      "assets/index.efcfbf68.css"
     ]
   },
   "members.html": {
@@ -22,14 +22,14 @@
     ]
   },
   "research_activity_students.html": {
-    "file": "assets/research_activity_students.ade988a1.js",
+    "file": "assets/research_activity_students.92f94483.js",
     "src": "research_activity_students.html",
     "isEntry": true,
     "imports": [
       "_getConfig.1f65d71e.js"
     ],
     "css": [
-      "assets/research_activity_students.5a665d98.css"
+      "assets/research_activity_students.bda28c52.css"
     ]
   },
   "_getConfig.1f65d71e.js": {
