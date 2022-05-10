@@ -1,39 +1,39 @@
 {
   "index.html": {
-    "file": "assets/index.c5237735.js",
+    "file": "assets/index.28401fca.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.dd6cd5e2.js"
+      "_getConfig.566bacae.js"
     ],
     "css": [
       "assets/index.5fbf9ef8.css"
     ]
   },
   "members.html": {
-    "file": "assets/members.4e9e8b5a.js",
+    "file": "assets/members.7333b761.js",
     "src": "members.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.dd6cd5e2.js"
+      "_getConfig.566bacae.js"
     ],
     "css": [
       "assets/members.8649f6ed.css"
     ]
   },
   "research_activity_students.html": {
-    "file": "assets/research_activity_students.29fbed0b.js",
+    "file": "assets/research_activity_students.25ed4b6c.js",
     "src": "research_activity_students.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.dd6cd5e2.js"
+      "_getConfig.566bacae.js"
     ],
     "css": [
       "assets/research_activity_students.bda28c52.css"
     ]
   },
-  "_getConfig.dd6cd5e2.js": {
-    "file": "assets/getConfig.dd6cd5e2.js",
+  "_getConfig.566bacae.js": {
+    "file": "assets/getConfig.566bacae.js",
     "css": [
       "assets/getConfig.1673aa39.css"
     ],
@@ -41,10 +41,10 @@
       "assets/banner.6f1206a8.svg"
     ]
   },
-  "_common.cb260057.js": {
-    "file": "assets/common.cb260057.js",
+  "_common.bdb6d447.js": {
+    "file": "assets/common.bdb6d447.js",
     "imports": [
-      "_getConfig.dd6cd5e2.js"
+      "_getConfig.566bacae.js"
     ]
   }
 }
