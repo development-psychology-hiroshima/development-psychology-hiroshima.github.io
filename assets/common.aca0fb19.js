@@ -1,1 +1,0 @@
-import{g as n,d as o,e as i,m as a,f as t}from"./getConfig.0b9f93bc.js";const e=await n();o(i).provide("config",e).mount("#vue-carousel");o(a).provide("config",e).mount("#mobile-menu");o(t).provide("config",e).mount("#container-desktop-menu");
