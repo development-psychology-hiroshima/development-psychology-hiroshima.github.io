@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+    <script type="module" src="/assets/polyfills-modern.863a2794.js"></script>
+
     <meta charset="UTF-8" />
     <link rel="icon" href="/assets/favicon.1cbb0f7d.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,9 +27,12 @@
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <meta name="theme-color" content="#0099ff" />
-    <script async type="module" crossorigin src="/assets/getConfig.566bacae.js"></script>
-    <script async type="module" crossorigin src="/assets/common.bdb6d447.js"></script>
-    <link rel="stylesheet" href="/assets/getConfig.1673aa39.css">
+    <script async type="module" crossorigin src="/assets/research_activity_sugimura.05ef662b.js"></script>
+    <link rel="modulepreload" href="/assets/getConfig.00ee822e.js">
+    <link rel="modulepreload" href="/assets/common.1914d92d.js">
+    <link rel="stylesheet" href="/assets/getConfig.9770e3e0.css">
+    <script type="module">try{import("_").catch(()=>1);}catch(e){}window.__vite_is_dynamic_import_support=true;</script>
+    <script type="module">!function(){if(window.__vite_is_dynamic_import_support)return;console.warn("vite: loading legacy build because dynamic import is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
   </head>
   <body>
     <noscript>
@@ -286,5 +291,8 @@
         });
       }
     </script>
+    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+    <script nomodule id="vite-legacy-polyfill" src="/assets/polyfills-legacy.381d5517.js"></script>
+    <script nomodule id="vite-legacy-entry" data-src="/assets/research_activity_sugimura-legacy.b03aa2d5.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
 </html>

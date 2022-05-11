@@ -1,50 +1,145 @@
 {
+  "index-legacy.html": {
+    "file": "assets/index-legacy.49ff9cdc.js",
+    "src": "index-legacy.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig-legacy.d81b2bf1.js"
+    ]
+  },
+  "members-legacy.html": {
+    "file": "assets/members-legacy.add360ea.js",
+    "src": "members-legacy.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig-legacy.d81b2bf1.js"
+    ]
+  },
+  "research_activity_sugimura-legacy.html": {
+    "file": "assets/research_activity_sugimura-legacy.b03aa2d5.js",
+    "src": "research_activity_sugimura-legacy.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig-legacy.d81b2bf1.js",
+      "_common-legacy.eefd5630.js"
+    ]
+  },
+  "research_activity_umemura-legacy.html": {
+    "file": "assets/research_activity_umemura-legacy.db828b0f.js",
+    "src": "research_activity_umemura-legacy.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig-legacy.d81b2bf1.js",
+      "_common-legacy.eefd5630.js"
+    ]
+  },
+  "research_activity_students-legacy.html": {
+    "file": "assets/research_activity_students-legacy.7448408b.js",
+    "src": "research_activity_students-legacy.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig-legacy.d81b2bf1.js"
+    ]
+  },
+  "annual_schedule-legacy.html": {
+    "file": "assets/annual_schedule-legacy.ca750679.js",
+    "src": "annual_schedule-legacy.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig-legacy.d81b2bf1.js",
+      "_common-legacy.eefd5630.js"
+    ]
+  },
+  "_getConfig-legacy.d81b2bf1.js": {
+    "file": "assets/getConfig-legacy.d81b2bf1.js",
+    "assets": [
+      "assets/banner.6f1206a8.svg"
+    ]
+  },
+  "_common-legacy.eefd5630.js": {
+    "file": "assets/common-legacy.eefd5630.js",
+    "imports": [
+      "_getConfig-legacy.d81b2bf1.js"
+    ]
+  },
+  "vite/legacy-polyfills": {
+    "file": "assets/polyfills-modern.863a2794.js",
+    "src": "vite/legacy-polyfills",
+    "isEntry": true
+  },
   "index.html": {
-    "file": "assets/index.28401fca.js",
+    "file": "assets/index.b8569b37.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.566bacae.js"
+      "_getConfig.00ee822e.js"
     ],
     "css": [
       "assets/index.5fbf9ef8.css"
     ]
   },
   "members.html": {
-    "file": "assets/members.7333b761.js",
+    "file": "assets/members.5b9cabd8.js",
     "src": "members.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.566bacae.js"
+      "_getConfig.00ee822e.js"
     ],
     "css": [
       "assets/members.8649f6ed.css"
     ]
   },
+  "research_activity_sugimura.html": {
+    "file": "assets/research_activity_sugimura.05ef662b.js",
+    "src": "research_activity_sugimura.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig.00ee822e.js",
+      "_common.1914d92d.js"
+    ]
+  },
+  "research_activity_umemura.html": {
+    "file": "assets/research_activity_umemura.b2b92d31.js",
+    "src": "research_activity_umemura.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig.00ee822e.js",
+      "_common.1914d92d.js"
+    ]
+  },
   "research_activity_students.html": {
-    "file": "assets/research_activity_students.25ed4b6c.js",
+    "file": "assets/research_activity_students.9f3e1fba.js",
     "src": "research_activity_students.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.566bacae.js"
+      "_getConfig.00ee822e.js"
     ],
     "css": [
       "assets/research_activity_students.bda28c52.css"
     ]
   },
-  "_getConfig.566bacae.js": {
-    "file": "assets/getConfig.566bacae.js",
+  "annual_schedule.html": {
+    "file": "assets/annual_schedule.5d665d20.js",
+    "src": "annual_schedule.html",
+    "isEntry": true,
+    "imports": [
+      "_getConfig.00ee822e.js",
+      "_common.1914d92d.js"
+    ]
+  },
+  "_getConfig.00ee822e.js": {
+    "file": "assets/getConfig.00ee822e.js",
     "css": [
-      "assets/getConfig.1673aa39.css"
+      "assets/getConfig.9770e3e0.css"
     ],
     "assets": [
       "assets/banner.6f1206a8.svg"
     ]
   },
-  "_common.bdb6d447.js": {
-    "file": "assets/common.bdb6d447.js",
+  "_common.1914d92d.js": {
+    "file": "assets/common.1914d92d.js",
     "imports": [
-      "_getConfig.566bacae.js"
+      "_getConfig.00ee822e.js"
     ]
   }
 }
