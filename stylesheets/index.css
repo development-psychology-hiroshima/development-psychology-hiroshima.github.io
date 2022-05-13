@@ -1,10 +1,20 @@
 html,
 body {
-  font-family: "Noto Sans JP", "Hiragino Sans", "游ゴシック Medium",
+  font-family: -apple-system, BlinkMacSystemFont, system-ui,"Noto Sans JP", "Hiragino Sans", "游ゴシック Medium",
     "Yu Gothic Medium", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3", メイリオ,
     "Microsoft YaHei", 微软雅黑, sans-serif;
   color: #494949;
   background: #f2f2f2;
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html, body {
+    scroll-behavior: auto;
+  }
+}
+
+html:focus-within {
   scroll-behavior: smooth;
 }
 

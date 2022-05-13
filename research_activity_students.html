@@ -27,10 +27,10 @@
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <meta name="theme-color" content="#0099ff" />
-    <script async type="module" crossorigin src="/assets/research_activity_students.9f3e1fba.js"></script>
-    <link rel="modulepreload" href="/assets/getConfig.00ee822e.js">
-    <link rel="stylesheet" href="/assets/getConfig.9770e3e0.css">
-    <link rel="stylesheet" href="/assets/research_activity_students.bda28c52.css">
+    <script async type="module" crossorigin src="/assets/research_activity_students.66c55e59.js"></script>
+    <link rel="modulepreload" href="/assets/getConfig.925e7ce4.js">
+    <link rel="stylesheet" href="/assets/getConfig.76a30305.css">
+    <link rel="stylesheet" href="/assets/research_activity_students.4a6a8e72.css">
     <script type="module">try{import("_").catch(()=>1);}catch(e){}window.__vite_is_dynamic_import_support=true;</script>
     <script type="module">!function(){if(window.__vite_is_dynamic_import_support)return;console.warn("vite: loading legacy build because dynamic import is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
   </head>
@@ -52,33 +52,41 @@
     </noscript>
 
     <div id="container-banner">
-      <div id="banner-contents">
-        <div id="lab-title">広島大学 発達心理学研究室</div>
-        <div id="mobile-menu"></div>
+      <div id="banner-contents" role="banner">
+        <div id="lab-title" role="banner">広島大学 発達心理学研究室</div>
+        <div id="mobile-menu" role="menu"></div>
       </div>
     </div>
-    <div id="container-banner-carousel">
+    <div id="container-banner-carousel" role="widget">
       <div id="welcome">
         <p class="welcome-1">ようこそ</p>
         <p class="welcome-2">発達研へ</p>
       </div>
-      <div id="vue-carousel"></div>
+      <div id="vue-carousel" role="widget"></div>
     </div>
 
-    <div id="container-desktop-menu"></div>
+    <div id="container-desktop-menu" role="menubar"></div>
 
     <div class="container-index-contents">
       <div class="container-navigation"></div>
 
       <div class="container-main-content">
-        <div class="split-line">
-          <h2 id="top-target"><span>学生の研究活動</span></h2>
+        <div class="split-line" role="heading">
+          <h2 id="top-target">
+            <span role="heading" aria-level="1">学生の研究活動</span>
+          </h2>
         </div>
 
         <div id="members-research-activities">
           <div class="container-loading">
             <div class="loading-icon"></div>
-            <p class="loading-tip">ローディング時間がかなりかかる場合，<a href="https://www.google.co.jp/chrome/" target="_blank">Google Chrome</a>に切り替えてもう一度試してください。</p>
+            <p class="loading-tip">
+              ローディング時間がかなりかかる場合，<a
+                href="https://www.google.co.jp/chrome/"
+                target="_blank"
+                >Google Chrome</a
+              >に切り替えてもう一度試してください。
+            </p>
           </div>
         </div>
       </div>
@@ -86,8 +94,12 @@
       <div id="container-misc-info">
         <div class="card" id="container-contact-info">
           <img class="logo" src="/images/logo.png" alt="発達研ロゴ" />
-          <h2 class="contact-title"><span>広島大学発達心理学研究室</span></h2>
-          <h2 class="contact-title"><span>お問い合わせ</span></h2>
+          <h2 class="contact-title">
+            <span role="heading" aria-level="2">広島大学発達心理学研究室</span>
+          </h2>
+          <h2 class="contact-title">
+            <span role="heading" aria-level="2">お問い合わせ</span>
+          </h2>
           <div class="container-personal-contact">
             <img
               class="contact-avatar"
@@ -119,7 +131,13 @@
       </div>
     </div>
 
-    <a id="top-button" href="#top-target" class="hidden">
+    <a
+      role="button"
+      aria-roledescription="Top button"
+      id="top-button"
+      href="#top-target"
+      class="hidden"
+    >
       <div id="top">↑</div>
     </a>
 
@@ -151,6 +169,6 @@
     </script>
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
     <script nomodule id="vite-legacy-polyfill" src="/assets/polyfills-legacy.381d5517.js"></script>
-    <script nomodule id="vite-legacy-entry" data-src="/assets/research_activity_students-legacy.7448408b.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule id="vite-legacy-entry" data-src="/assets/research_activity_students-legacy.b3ae5402.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
 </html>
