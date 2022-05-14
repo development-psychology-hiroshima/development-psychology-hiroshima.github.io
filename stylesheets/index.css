@@ -1,15 +1,17 @@
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, system-ui,"Noto Sans JP", "Hiragino Sans", "游ゴシック Medium",
-    "Yu Gothic Medium", 游ゴシック体, YuGothic, "ヒラギノ角ゴ Pro W3", メイリオ,
-    "Microsoft YaHei", 微软雅黑, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, system-ui, "Noto Sans JP",
+    "Hiragino Sans", "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体,
+    YuGothic, "ヒラギノ角ゴ Pro W3", メイリオ, "Microsoft YaHei", 微软雅黑,
+    sans-serif;
   color: #494949;
   background: #f2f2f2;
   scroll-behavior: smooth;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-  html, body {
+  html,
+  body {
     scroll-behavior: auto;
   }
 }
@@ -34,7 +36,7 @@ li > a,
 .month-content > a,
 #umemura.image-caption {
   display: inline-block;
-  color: #0099ff;
+  color: #2462f5;
   text-decoration-line: underline;
 }
 
@@ -263,7 +265,7 @@ h3 {
 
 .email-hyperlink:hover,
 .email-hyperlink:focus {
-  color: #0099ff;
+  color: #2462f5;
 }
 
 .copyright {
@@ -398,7 +400,7 @@ img.lab-description {
 }
 
 .name {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .container-title {
