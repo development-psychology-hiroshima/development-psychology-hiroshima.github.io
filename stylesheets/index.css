@@ -278,6 +278,8 @@ h3 {
   font-size: smaller;
   color: #6b6b6b;
   text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 #top-button {
@@ -552,4 +554,9 @@ h4.month {
 
 .month-content > p:before {
   content: "　　";
+}
+
+.paper-title {
+  user-select: all;
+  -webkit-user-select: all;
 }

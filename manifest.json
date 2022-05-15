@@ -34,7 +34,7 @@
     ]
   },
   "research_activity_students-legacy.html": {
-    "file": "assets/research_activity_students-legacy.00cbb992.js",
+    "file": "assets/research_activity_students-legacy.7e2cb539.js",
     "src": "research_activity_students-legacy.html",
     "isEntry": true,
     "imports": [
@@ -63,7 +63,7 @@
     ]
   },
   "vite/legacy-polyfills": {
-    "file": "assets/polyfills-modern.fb67bcb4.js",
+    "file": "assets/polyfills-modern.863a2794.js",
     "src": "vite/legacy-polyfills",
     "isEntry": true
   },
@@ -108,14 +108,14 @@
     ]
   },
   "research_activity_students.html": {
-    "file": "assets/research_activity_students.90b4f1fc.js",
+    "file": "assets/research_activity_students.6cc36de8.js",
     "src": "research_activity_students.html",
     "isEntry": true,
     "imports": [
       "_getConfig.48859762.js"
     ],
     "css": [
-      "assets/research_activity_students.82a9a2a7.css"
+      "assets/research_activity_students.d3e2369f.css"
     ]
   },
   "annual_schedule.html": {
@@ -130,7 +130,7 @@
   "_getConfig.48859762.js": {
     "file": "assets/getConfig.48859762.js",
     "css": [
-      "assets/getConfig.b6c62c8f.css"
+      "assets/getConfig.9497c8d5.css"
     ],
     "assets": [
       "assets/banner.6f1206a8.svg"
