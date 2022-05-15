@@ -116,6 +116,8 @@ li > a,
     min-width: 24px;
     height: 5vw;
     min-height: 24px;
+    user-select: none;
+    -webkit-user-select: none;
   }
 }
 
@@ -226,6 +228,8 @@ h4 span {
     #bfd08c 40%,
     transparent 0%
   );
+  user-select: all;
+  -webkit-user-select: all;
 }
 
 a {

@@ -1,1 +1,0 @@
-System.register(["./getConfig-legacy.3cca4a6d.js"],(function(){"use strict";var e,n,t,o,c;return{setters:[function(i){e=i.g,n=i.d,t=i.e,o=i.m,c=i.f}],execute:async function(){const i=await e();n(t).provide("config",i).mount("#vue-carousel"),n(o).provide("config",i).mount("#mobile-menu"),n(c).provide("config",i).mount("#container-desktop-menu")}}}));

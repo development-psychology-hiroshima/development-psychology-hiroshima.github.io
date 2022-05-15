@@ -1,145 +1,145 @@
 {
   "index-legacy.html": {
-    "file": "assets/index-legacy.bf5cdecb.js",
+    "file": "assets/index-legacy.3df77cf3.js",
     "src": "index-legacy.html",
     "isEntry": true,
     "imports": [
-      "_getConfig-legacy.3cca4a6d.js"
+      "_getConfig-legacy.d66c61a1.js"
     ]
   },
   "members-legacy.html": {
-    "file": "assets/members-legacy.b3d803aa.js",
+    "file": "assets/members-legacy.9401ef2d.js",
     "src": "members-legacy.html",
     "isEntry": true,
     "imports": [
-      "_getConfig-legacy.3cca4a6d.js"
+      "_getConfig-legacy.d66c61a1.js"
     ]
   },
   "research_activity_sugimura-legacy.html": {
-    "file": "assets/research_activity_sugimura-legacy.580a00cc.js",
+    "file": "assets/research_activity_sugimura-legacy.a4715769.js",
     "src": "research_activity_sugimura-legacy.html",
     "isEntry": true,
     "imports": [
-      "_getConfig-legacy.3cca4a6d.js",
-      "_common-legacy.247aecbd.js"
+      "_getConfig-legacy.d66c61a1.js",
+      "_common-legacy.47493995.js"
     ]
   },
   "research_activity_umemura-legacy.html": {
-    "file": "assets/research_activity_umemura-legacy.e7d84b1b.js",
+    "file": "assets/research_activity_umemura-legacy.4e73358d.js",
     "src": "research_activity_umemura-legacy.html",
     "isEntry": true,
     "imports": [
-      "_getConfig-legacy.3cca4a6d.js",
-      "_common-legacy.247aecbd.js"
+      "_getConfig-legacy.d66c61a1.js",
+      "_common-legacy.47493995.js"
     ]
   },
   "research_activity_students-legacy.html": {
-    "file": "assets/research_activity_students-legacy.d42879cf.js",
+    "file": "assets/research_activity_students-legacy.00cbb992.js",
     "src": "research_activity_students-legacy.html",
     "isEntry": true,
     "imports": [
-      "_getConfig-legacy.3cca4a6d.js"
+      "_getConfig-legacy.d66c61a1.js"
     ]
   },
   "annual_schedule-legacy.html": {
-    "file": "assets/annual_schedule-legacy.70227e4a.js",
+    "file": "assets/annual_schedule-legacy.0ae36133.js",
     "src": "annual_schedule-legacy.html",
     "isEntry": true,
     "imports": [
-      "_getConfig-legacy.3cca4a6d.js",
-      "_common-legacy.247aecbd.js"
+      "_getConfig-legacy.d66c61a1.js",
+      "_common-legacy.47493995.js"
     ]
   },
-  "_getConfig-legacy.3cca4a6d.js": {
-    "file": "assets/getConfig-legacy.3cca4a6d.js",
+  "_getConfig-legacy.d66c61a1.js": {
+    "file": "assets/getConfig-legacy.d66c61a1.js",
     "assets": [
       "assets/banner.6f1206a8.svg"
     ]
   },
-  "_common-legacy.247aecbd.js": {
-    "file": "assets/common-legacy.247aecbd.js",
+  "_common-legacy.47493995.js": {
+    "file": "assets/common-legacy.47493995.js",
     "imports": [
-      "_getConfig-legacy.3cca4a6d.js"
+      "_getConfig-legacy.d66c61a1.js"
     ]
   },
   "vite/legacy-polyfills": {
-    "file": "assets/polyfills-modern.863a2794.js",
+    "file": "assets/polyfills-modern.fb67bcb4.js",
     "src": "vite/legacy-polyfills",
     "isEntry": true
   },
   "index.html": {
-    "file": "assets/index.dd393cd2.js",
+    "file": "assets/index.d9119c76.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.116e3b6e.js"
+      "_getConfig.48859762.js"
     ],
     "css": [
       "assets/index.e83757d5.css"
     ]
   },
   "members.html": {
-    "file": "assets/members.3c1a3b39.js",
+    "file": "assets/members.7308ce03.js",
     "src": "members.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.116e3b6e.js"
+      "_getConfig.48859762.js"
     ],
     "css": [
       "assets/members.3685ccf5.css"
     ]
   },
   "research_activity_sugimura.html": {
-    "file": "assets/research_activity_sugimura.9d27975f.js",
+    "file": "assets/research_activity_sugimura.2ed14749.js",
     "src": "research_activity_sugimura.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.116e3b6e.js",
-      "_common.ce2c9c54.js"
+      "_getConfig.48859762.js",
+      "_common.ea15c6f0.js"
     ]
   },
   "research_activity_umemura.html": {
-    "file": "assets/research_activity_umemura.ffd3e71b.js",
+    "file": "assets/research_activity_umemura.fd8189b7.js",
     "src": "research_activity_umemura.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.116e3b6e.js",
-      "_common.ce2c9c54.js"
+      "_getConfig.48859762.js",
+      "_common.ea15c6f0.js"
     ]
   },
   "research_activity_students.html": {
-    "file": "assets/research_activity_students.8d3419da.js",
+    "file": "assets/research_activity_students.90b4f1fc.js",
     "src": "research_activity_students.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.116e3b6e.js"
+      "_getConfig.48859762.js"
     ],
     "css": [
       "assets/research_activity_students.82a9a2a7.css"
     ]
   },
   "annual_schedule.html": {
-    "file": "assets/annual_schedule.350e9259.js",
+    "file": "assets/annual_schedule.12e767d5.js",
     "src": "annual_schedule.html",
     "isEntry": true,
     "imports": [
-      "_getConfig.116e3b6e.js",
-      "_common.ce2c9c54.js"
+      "_getConfig.48859762.js",
+      "_common.ea15c6f0.js"
     ]
   },
-  "_getConfig.116e3b6e.js": {
-    "file": "assets/getConfig.116e3b6e.js",
+  "_getConfig.48859762.js": {
+    "file": "assets/getConfig.48859762.js",
     "css": [
-      "assets/getConfig.fe3478d9.css"
+      "assets/getConfig.3ce0a4fb.css"
     ],
     "assets": [
       "assets/banner.6f1206a8.svg"
     ]
   },
-  "_common.ce2c9c54.js": {
-    "file": "assets/common.ce2c9c54.js",
+  "_common.ea15c6f0.js": {
+    "file": "assets/common.ea15c6f0.js",
     "imports": [
-      "_getConfig.116e3b6e.js"
+      "_getConfig.48859762.js"
     ]
   }
 }
