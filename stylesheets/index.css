@@ -70,6 +70,8 @@ li > a,
   color: #f2f2f2;
   font-size: xx-large;
   font-weight: bold;
+  user-select: all;
+  -webkit-user-select: all;
 }
 
 #mobile-menu {
@@ -141,6 +143,8 @@ li > a,
   width: fit-content;
   transform: translateY(2vh);
   text-shadow: 0 0 12px black;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .welcome-1:after {
@@ -228,8 +232,6 @@ h4 span {
     #bfd08c 40%,
     transparent 0%
   );
-  user-select: all;
-  -webkit-user-select: all;
 }
 
 a {
@@ -405,6 +407,11 @@ img.lab-description {
 
 .name {
   font-weight: bold;
+}
+
+.name, .personal-contact-name {
+  user-select: all;
+  -webkit-user-select: all;
 }
 
 .container-title {
