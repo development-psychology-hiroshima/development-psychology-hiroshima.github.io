@@ -1,1 +1,0 @@
-import"./getConfig.a2eb5311.js";import{__tla as _}from"./common.a2a5b2ca.js";let a,r=Promise.all([(()=>{try{return _}catch{}})()]).then(async()=>{a=function(){import("data:text/javascript,").then(async t=>(await t.__tla,t))}});export{r as __tla,a as __vite_legacy_guard};

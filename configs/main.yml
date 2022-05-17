@@ -1,3 +1,11 @@
+# 「参加者募集」の部分
+projects:
+  -
+    title: 赤ちゃんの観察研究
+    url: https://development.hiroshima-u.ac.jp/ad/HARP2_ad.pdf
+    downloadTitle: 赤ちゃんの観察研究
+    image: https://development.hiroshima-u.ac.jp/images/ad/HARP2_ad.jpg
+
 # 「研究室の話題」の部分
 # 内容の前のスペース数を、必ず前文と一致にしてください。
 # 必ず英語の半角スペースを使用してください。

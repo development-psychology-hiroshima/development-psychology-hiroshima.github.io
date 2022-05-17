@@ -1,0 +1,1 @@
+import{g as n,d as e,e as i,m as t,f as a,p as r}from"./getConfig.1444c894.js";let m=(async()=>{const o=await n();e(i).provide("config",o).mount("#vue-carousel"),e(t).provide("config",o).mount("#mobile-menu"),e(a).provide("config",o).mount("#container-desktop-menu"),e(r).provide("config",o).mount("#project-window")})();export{m as __tla};

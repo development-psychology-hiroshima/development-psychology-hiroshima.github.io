@@ -29,6 +29,7 @@ a {
   display: block;
   color: #494949;
   text-decoration-line: none;
+  width: fit-content;
 }
 
 p > a,
@@ -181,8 +182,8 @@ li > a,
 .container-index-contents {
   display: grid;
   margin: 0 clamp(2rem, calc((100vw - 1500px) / 2), 50vw);
-  grid-template-areas: "navigation main-content contact";
-  grid-template-columns: 0.4fr 2.3fr 1fr;
+  grid-template-areas: "projects main-content contact";
+  grid-template-columns: 0.4fr 2.2fr 0.4fr;
   grid-column-gap: 2rem;
   max-width: 1500px;
 }
@@ -205,7 +206,7 @@ li > a,
 }
 
 #container-misc-info {
-  position: sticky;
+  /*position: sticky;*/
   top: calc(clamp(10vh, 6vh, 110px) + 3vh);
   min-width: max-content;
   height: fit-content;
@@ -220,10 +221,15 @@ li > a,
   align-items: center;
 }
 
+/*#container-misc {*/
+/*  grid-area: projects;*/
+/*}*/
+
 h2 span,
 h3 span,
 h3 span a,
-h4 span {
+h4 span,
+h4 span a{
   background: linear-gradient(
     to top,
     transparent 5%,
@@ -234,8 +240,9 @@ h4 span {
   );
 }
 
-a {
-  width: fit-content;
+h3 span a, h4 span a {
+  color: #2462f5;
+  text-decoration-line: underline;
 }
 
 h2 {
@@ -280,6 +287,7 @@ h3 {
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
+  margin-bottom: 2rem;
 }
 
 #top-button {
@@ -559,4 +567,25 @@ h4.month {
 .paper-title {
   user-select: all;
   -webkit-user-select: all;
+}
+
+.projects-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-title {
+  margin-bottom: 0.5rem;
+}
+
+.project-title > a {
+  color: #2462f5;
+  text-decoration: underline;
+}
+
+.showcase-image {
+  max-width: max(200px, 15vw);
+  border-radius: 10px;
 }
