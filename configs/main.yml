@@ -1,4 +1,4 @@
-# 「参加者募集」の部分
+# 「参加者募集」
 projects:
   -
     title: 赤ちゃんの観察研究
@@ -6,7 +6,15 @@ projects:
     downloadTitle: 赤ちゃんの観察研究
     image: https://development.hiroshima-u.ac.jp/images/ad/HARP2_ad.jpg
 
-# 「研究室の話題」の部分
+# HPのバックグラウンド画像。
+# lazyloadでは，より小さな画像を読み込むことで，
+# ユーザのインタネットが遅いでも，画像を読み込むことができるようになる
+# lazyload機能を欲しくない場合，この設定を null にしてください。
+backgrounds:
+  lazyload: /backgrounds/background.lazyload.webp
+  normal: /backgrounds/background.webp
+
+# 「研究室の話題」
 # 内容の前のスペース数を、必ず前文と一致にしてください。
 # 必ず英語の半角スペースを使用してください。
 # DO KEEP WHITESPACE COUNT CONSISTENT
@@ -120,18 +128,6 @@ awards:
     year: 2019
     text: 日原尚吾・石橋彩波・梅村比丘・杉村和美の論文がEmerging Adulthoodに掲載されました。
     url: https://journals.sagepub.com/doi/full/10.1177/2167696819858457
-
-# HPのイメージの部分
-# 写真をいくつに入れても大丈夫。
-# 必ず英語の半角スペースを使用してください。
-# Homepage Image banner.
-# Can add as many images as required.
-# please DO USE ENGLISH HALF-WIDTH spaces!
-bannerImages:
-  - images/syugo/sugimuraken_syugo202203.jpeg
-  - images/syugo/umemuraken_syugo202203.jpeg
-  - images/2019_aki_sinkan.jpeg
-  - https://development.hiroshima-u.ac.jp/images/sche/201804shinkan.jpg
 
 # 「卒業生の進路」の部分
 # 内容の前のスペース数を、必ず前文と一致にしてください。
@@ -362,19 +358,19 @@ menuItems:
     url: index.html
     show: true
   -
-    name: メンバー紹介
-    english: Members
-    url: members.html
+    name: 研究室の話題
+    english: Awards
+    url: index.html#title-awards
     show: true
   -
-    name: 杉村和美の研究活動
-    english: Sugimura's activities
-    url: research_activity_sugimura.html
+    name: 研究室の紹介
+    english: Introduction
+    url: index.html#title-intro
     show: true
   -
-    name: 梅村比丘の研究活動
-    english: Umemura's activities
-    url: research_activity_umemura.html
+    name: 先生の研究活動
+    english: Professors' activities
+    url: index.html#title-research-professors
     show: true
   -
     name: 一例

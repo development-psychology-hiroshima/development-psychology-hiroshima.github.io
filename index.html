@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <script type="module" src="/assets/polyfills-modern.fb67bcb4.js"></script>
-
     <meta charset="UTF-8" />
-    <link rel="icon" href="/assets/favicon.1cbb0f7d.ico" />
+    <link rel="icon" href="/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" href="/favicons/favicon-32x32.png" sizes="32x32" />
+    <link
+      rel="apple-touch-icon"
+      href="/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="mask-icon"
+      href="/favicons/maskable-192x192.png"
+      color="#ffffff"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta http-equiv="Content-Type" content="text/css" />
     <meta http-equiv="Content-Type" content="text/javascript" />
-    
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.049a6fa7.png" />
+    <title>広島大学発達心理学研究室</title>
     <meta
       name="description"
       content="人間のこころの発達について、人が人として生きるうえでとても大切な社会性や社会的適応に焦点をあてて探究しています"
@@ -19,355 +27,97 @@
       name="keywords"
       content="心理学, 広島大学, 広大, 学部, 大学院, 発達心理学研究室, 発達心理学, こころの発達, 児童と青年, 発達, アタッチメント, アイデンティティ, dynamic systems"
     />
-    <title>広島大学発達心理学研究室</title>
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap&subset=japanese"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap"
+      rel="stylesheet"
     />
-    <meta name="theme-color" content="#0099ff" />
-    <script async type="module" crossorigin src="/assets/index.e3387d1a.js"></script>
-    <link rel="modulepreload" href="/assets/getConfig.1444c894.js">
-    <link rel="stylesheet" href="/assets/getConfig.14122ca3.css">
-    <link rel="stylesheet" href="/assets/index.e83757d5.css">
-    <script type="module">try{import("_").catch(()=>1);}catch(e){}window.__vite_is_dynamic_import_support=true;</script>
-    <script type="module">!function(){if(window.__vite_is_dynamic_import_support)return;console.warn("vite: loading legacy build because dynamic import is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
-  </head>
+    <meta name="theme-color" content="#ffffff" />
+    <script type="module" crossorigin src="/assets/index.2813abc6.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/components.6dc762d0.js">
+    <link rel="stylesheet" href="/assets/style.1a6be628.css">
+    <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
+    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+  <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
     <noscript>
-      <p
-        style="
-          width: 100vw;
-          height: 7vh;
-          line-height: 7vh;
-          font-size: large;
-          text-align: center;
-          color: #730202;
-          background-color: hsl(0deg 27% 93%);
-        "
-      >
+      <p id="noscript">
         当サイトではJavaScriptを使用しているコンテンツがありますので、ブラウザ設定でJavaScriptを有効にしてご利用ください。
       </p>
     </noscript>
-
-    <div id="container-banner">
-      <div id="banner-contents" role="banner">
-        <div id="lab-title" role="banner">広島大学 発達心理学研究室</div>
-        <div id="mobile-menu" role="menu"></div>
-      </div>
+    <div id="splash"></div>
+    <div class="heading-container" id="title-awards">
+      <h1>研究室の話題</h1>
     </div>
-    <div id="container-banner-carousel" role="complementary">
-      <div id="welcome">
-        <p
-          class="welcome-1"
-          role="heading"
-          aria-level="2"
-          aria-label="発達研宣伝テキスト"
-        >
-          ようこそ
-        </p>
-        <p
-          class="welcome-2"
-          role="heading"
-          aria-level="2"
-          aria-label="発達研宣伝テキスト"
-        >
-          発達研へ
-        </p>
-      </div>
-      <div id="vue-carousel" role="complementary"></div>
+    <div id="award-timeline"></div>
+    <div class="heading-container" id="title-intro">
+      <h1>研究室の紹介</h1>
     </div>
-
-    <div id="container-desktop-menu" role="menubar"></div>
-
-    <div class="container-overall">
-      <div class="container-index-contents">
-        <div class="container-navigation"></div>
-
-        <div class="container-main-content">
-          <div class="split-line" role="heading" aria-level="1">
-            <h2 id="top-target">
-              <span role="heading" aria-level="1">研究室の話題</span>
-            </h2>
-          </div>
-          <div id="container-awards">
-            <div class="container-loading">
-              <div class="loading-icon"></div>
-              <p class="loading-tip">
-                ローディング時間がかなりかかる場合，<a
-                  href="https://www.google.co.jp/chrome/"
-                  target="_blank"
-                  >Google Chrome</a
-                >に切り替えてもう一度試してください。
-              </p>
-            </div>
-          </div>
-
-          <div class="split-line" role="heading" aria-level="1">
-            <h2><span role="heading" aria-level="1">研究室の紹介</span></h2>
-          </div>
-
-          <div class="card" role="article">
-            <h3>
-              <span role="heading" aria-level="2"
-                >人間のこころの発達を研究する</span
-              >
-            </h3>
-
-            <div class="main-content">
-              <div class="container-align-center">
-                <img
-                  class="lab-description"
-                  src="https://development.hiroshima-u.ac.jp/images/2019_aki_sinkan.jpeg"
-                  alt="研究室の紹介画像"
-                />
-              </div>
-              <p>ようこそ、発達心理学研究室へ！</p>
-              <p>
-                私たちの研究室が目指すのは，発達心理学の本質的な課題である，
-                人の心理発達の過程を理解することです。
-                特に得意にしているテーマは，Eriksonの
-                <a
-                  href="research_activity_sugimura.html#identity"
-                  target="_blank"
-                >
-                  アイデンティティ理論
-                </a>
-                とBowlbyの
-                <a
-                  href="research_activity_umemura.html#attachment"
-                  target="_blank"
-                >
-                  アタッチメント理論
-                </a>
-                を土台とした，自我の発達と関係性（親子・友人・恋人・夫婦）の発達についての理解です。
-                究極的には，自己と関係性の発達理論を構築したいと考えています。
-              </p>
-              <p>
-                研究室が大切にしている点は，私たちの研究が世界とつながっていること。
-                つまり，世界中の研究者と共にその分野を前進させることです。
-                そのために，研究成果の英語による発信，国際共同研究，日本だけでなく海外の研究者との交流に力を入れています。
-                国際的な研究活動を重視していることから，文化の中での発達を明らかにする研究も手がけています。
-              </p>
-              <p>
-                私たちは，
-                <a
-                  href="research_activity_sugimura.html#identity"
-                  target="_blank"
-                >
-                  アイデンティティ理論
-                </a>
-                ，
-                <a
-                  href="research_activity_sugimura.html#identity"
-                  target="_blank"
-                >
-                  アタッチメント理論
-                </a>
-                ，
-                <a href="research_activity_umemura.html#dst" target="_blank">
-                  Dynamic systems theory (DST)
-                </a>
-                の立場からの研究を行なっています。
-                また，自己と関係性の様々な問題を明らかにするため，
-                多様な理論，例えば，分離個体化理論，Positive youth
-                developmentの視点も取り入れています。
-              </p>
-              <p>
-                研究室メンバーの研究は，主にアイデンティティとアタッチメントに焦点を当てています。
-                これに関連する幅広い発達の先行要因（家族，仲間，学校，社会，文化など）と，
-                発達の結果（精神的健康，問題行動，ひきこもりなど）も扱っています。
-                それらの研究を，乳幼児期，児童期，青年期，初期成人期（あるいは成人形成期）の人々を対象に行なっています。
-                できるだけ縦断デザインで，量的アプローチと質的アプローチのmixed
-                methodを用いることにより，
-                関係的でダイナミックな真の発達の姿を理解することを志向しています。
-              </p>
-            </div>
-
-            <div class="signature">
-              <p class="name">杉村和美・梅村比丘</p>
-              <p class="sign-time">2018年6月5日</p>
-            </div>
-          </div>
-
-          <div class="card" role="article">
-            <h3>
-              <span role="heading" aria-level="2"
-                >博士学位取得と就職のための手厚いサポートをします</span
-              >
-            </h3>
-
-            <div class="main-content">
-              <div class="container-align-center">
-                <img
-                  class="lab-description"
-                  src="https://development.hiroshima-u.ac.jp/ad/発達研_就職紹介.jpg"
-                  alt="就職紹介"
-                />
-              </div>
-
-              <h4 class="support-title">
-                <span>先端的な専門知識を指導します</span>
-              </h4>
-              <p class="support-content">
-                アタッチメントやアイデンティティ，心理学研究法について，<mark>先端的な専門知識を指導します</mark>。
-              </p>
-
-              <h4 class="support-title">
-                <span>研究計画の立案を助けます</span>
-              </h4>
-              <p class="support-content">
-                リサーチ・クエスチョンをどのように検討するのか，<mark>国際的に評価される研究</mark>には何が必要かを考え，丁寧に指導します。
-              </p>
-
-              <h4 class="support-title">
-                <span>研究費の獲得を支援します</span>
-              </h4>
-              <p class="support-content">
-                十分な研究費獲得のための，<mark>申請書の書き方を指導します</mark>。過去に採択された申請書を共有しているので，参照できます。
-              </p>
-
-              <h4 class="support-title">
-                <span>迅速な研究実施を補助します</span>
-              </h4>
-              <p class="support-content">
-                観察法，面接法，質問紙法など，発達心理学で必要な研究法を熟知する教員が揃っています。過去に他のメンバーが集めたデータも利用可能なので，<mark>研究を効率化できます</mark>。
-              </p>
-
-              <h4 class="support-title">
-                <span>国際的な研究発信を助けます</span>
-              </h4>
-              <p class="support-content">
-                英語論文の指導や，国際学会の発表練習会を通して，<mark>成果を国際的に発信する力を養成します</mark>。
-              </p>
-            </div>
-          </div>
-
-          <div class="card" role="article">
-            <h3>
-              <span role="heading" aria-level="2"
-                >発達心理学研究室に興味のある方へ</span
-              >
-            </h3>
-            <div class="main-content">
-              <p class="no-before">学内外より広くゼミ生募集中です！</p>
-              <p class="no-before no-margin-after">
-                詳しくは
-                <a href="mailto:umemura@hiroshima-u.ac.jp">梅村</a>
-                までご連絡ください。
-              </p>
-            </div>
-          </div>
-
-          <div class="card" role="article">
-            <h3><span role="heading" aria-level="2">卒業生の進路</span></h3>
-            <div class="main-content">
-              <p class="no-before">毎年全員進路が決まっています</p>
-              <p class="no-before">
-                大学院進学のためのアドバイスをしっかりやります
-              </p>
-
-              <div id="container-graduate" role="article"></div>
-            </div>
-          </div>
-        </div>
-
-        <div id="container-misc-info">
-          <div class="card" id="container-contact-info">
-            <img class="logo" src="/images/logo.png" alt="発達研ロゴ" />
-            <h2 class="contact-title">
-              <span role="heading" aria-level="2"
-                >広島大学発達心理学研究室</span
-              >
-            </h2>
-            <h2 class="contact-title">
-              <span role="heading" aria-level="2">お問い合わせ</span>
-            </h2>
-            <div class="container-personal-contact">
-              <img
-                class="contact-avatar"
-                src="/images/avatar_sugimura.jpg"
-                alt="杉村先生"
-              />
-              <p class="personal-contact-name">杉村和美</p>
-              <a
-                class="email-hyperlink"
-                href="mailto:ksugimura@hiroshima-u.ac.jp"
-                >ksugimura@hiroshima-u.ac.jp</a
-              >
-            </div>
-            <div class="container-personal-contact">
-              <img
-                class="contact-avatar"
-                src="/images/avatar_umemura.jpg"
-                alt="梅村先生"
-              />
-              <p class="personal-contact-name">梅村比丘</p>
-              <a class="email-hyperlink" href="mailto:umemura@hiroshima-u.ac.jp"
-                >umemura@hiroshima-u.ac.jp</a
-              >
-            </div>
-          </div>
-
-          <div id="container-misc">
-            <div id="project-window" class="card"></div>
-            <div class="copyright">
-              <p id="copyright-year">copyright© 2012</p>
-              <p>Developmental psychology Hiroshima.</p>
-              <p>All Right Reserved.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
+    <div class="heading-container" id="title-research-professors">
+      <h1>先生の研究活動</h1>
     </div>
-
-    <a
-      role="button"
-      aria-roledescription="Top button"
-      id="top-button"
-      href="#top-target"
-      class="hidden"
-    >
-      <div id="top">↑</div>
-    </a>
-
     
-    <script async>
-      const year = new Date().getFullYear();
-      document.getElementById(
-        "copyright-year"
-      ).innerHTML = `copyright© 2012-${year}`;
-
-      const topButton = document.getElementById("top-button");
-      let previousPosition = 0;
-
-      console.log(
-        window.screen.width / window.devicePixelRatio +
-          ", " +
-          window.screen.height +
-          ", " +
-          window.devicePixelRatio
-      );
-
-      if (window.screen.width / window.devicePixelRatio <= 1024) {
-        window.addEventListener("scroll", () => {
-          if (window.scrollY < previousPosition && window.scrollY > 100) {
-            topButton.classList.remove("hidden");
-            topButton.classList.add("show");
-          } else {
-            topButton.classList.remove("show");
-            topButton.classList.add("hidden");
-          }
-
-          previousPosition = window.scrollY;
-        });
-      }
-    </script>
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
-    <script nomodule id="vite-legacy-polyfill" src="/assets/polyfills-legacy.381d5517.js"></script>
-    <script nomodule id="vite-legacy-entry" data-src="/assets/index-legacy.9a1c1311.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy.36fec232.js"></script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.653e78cf.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
+  <style>
+    #noscript {
+      position: absolute;
+      width: 100vw;
+      padding: 1rem 0;
+      background: #fae0b5;
+      z-index: 999;
+      text-align: center;
+      box-shadow: 0 4px 6px 0 #00000012;
+    }
+
+    html,
+    body {
+      font-family: "Helvetica Neue", "Noto Sans JP", -apple-system,
+        BlinkMacSystemFont, system-ui, "Noto Serif JP", "Hiragino Sans",
+        "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体, YuGothic,
+        "ヒラギノ角ゴ Pro W3", メイリオ, "Microsoft YaHei", sans-serif;
+      color: #000;
+      background: #e8eded;
+      scroll-behavior: smooth;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #splash {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .heading-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      padding: 2rem 0;
+      background-color: #ffffff;
+    }
+
+    .heading-container > h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffffff;
+
+      background-color: #000000;
+      padding: 0.25rem 1rem;
+    }
+
+    #award-timeline {
+      background-color: #e8eded;
+      width: 100vw;
+      height: 80vh;
+    }
+  </style>
 </html>
