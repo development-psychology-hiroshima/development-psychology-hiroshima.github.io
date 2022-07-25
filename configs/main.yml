@@ -353,7 +353,7 @@ obog:
 # please DO USE ENGLISH HALF-WIDTH spaces!
 menuItems:
   -
-    name: ホーム
+    name: HOME
     english: Home
     url: index.html
     show: true
