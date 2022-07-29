@@ -33,16 +33,30 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <meta name="theme-color" content="#ffffff" />
-    <script type="module" crossorigin src="/assets/index.09f4dae2.js"></script>
-    <link rel="stylesheet" href="/assets/style.ea9ac93f.css">
+    <script type="module" crossorigin src="/assets/index.2e584cd9.js"></script>
+    <link rel="stylesheet" href="/assets/style.871805df.css">
     <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
     <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
   <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
     <noscript>
       <p id="noscript">
-        当サイトではJavaScriptを使用しているコンテンツがありますので、ブラウザ設定でJavaScriptを有効にしてご利用ください。
+        当サイトではJavaScriptを使用しているコンテンツがありますので、<a
+          href="https://www.google.com/intl/ja/chrome/"
+          target="_blank"
+          >Google Chrome</a
+        >や<a href="https://www.mozilla.org/ja/firefox/new/" target="_blank"
+          >Firefox Browser</a
+        >でアクセスするか、 ブラウザ設定でJavaScriptを有効にしてご利用ください。
       </p>
     </noscript>
     <!--  Photo by Alfons Morales on Unsplash-->
@@ -184,7 +198,7 @@
     
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
     <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy.842dc993.js"></script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.b791409d.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.7a6bc0c5.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
   <style>
     #noscript {
@@ -207,8 +221,36 @@
         "ヒラギノ角ゴ Pro W3", メイリオ, "Microsoft YaHei", sans-serif;
       color: #000;
       background: #e8eded;
+      overflow-x: hidden;
+    }
+
+    @keyframes smooth-scroll1 {
+      from,
+      to {
+        scroll-behavior: smooth;
+      }
+    }
+
+    @keyframes smooth-scroll2 {
+      from,
+      to {
+        scroll-behavior: smooth;
+      }
+    }
+
+    html {
+      animation: smooth-scroll1 1s;
+    }
+
+    html:focus-within {
+      animation-name: smooth-scroll2;
       scroll-behavior: smooth;
-      overflow-y: overlay;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html:focus-within {
+        scroll-behavior: auto;
+      }
     }
 
     * {
@@ -219,6 +261,7 @@
     #splash {
       width: 100vw;
       height: 100vh;
+      background-color: #707070;
     }
 
     .heading-container {
@@ -238,13 +281,17 @@
       color: #ffffff;
       background-color: #000000;
       padding: 0.25rem 1rem;
-      user-select: all;
     }
 
-    @media screen and (max-width: 768px) {
-      .heading-container > h1 {
-        font-size: 1.5rem;
-      }
+    #container-introduction {
+      padding-top: 2rem;
+      background-color: #e8eded;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      overflow-x: scroll;
+      justify-content: space-evenly;
+      align-items: flex-start;
     }
 
     #container-timeline {
@@ -256,10 +303,15 @@
       overflow: scroll;
     }
 
-    #container-introduction {
-      background-color: #e8eded;
-      width: 100vw;
-      height: 80vh;
+    @media screen and (max-width: 768px) {
+      .heading-container > h1 {
+        font-size: 1.5rem;
+      }
+
+      #container-introduction {
+        flex-direction: column;
+        align-items: center;
+      }
     }
 
     #container-research-professors {
