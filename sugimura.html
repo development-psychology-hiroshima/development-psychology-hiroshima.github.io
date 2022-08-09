@@ -50,7 +50,7 @@
     <meta name="theme-color" content="#ffffff" />
     <script type="module" crossorigin src="/assets/sugimura.dee06247.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/main.e2a69c2f.js">
-    <link rel="stylesheet" href="/assets/style.e69a0e60.css">
+    <link rel="stylesheet" href="/assets/style.f832bab7.css">
     <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
     <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
   <link rel="manifest" href="/manifest.webmanifest"></head>
@@ -279,6 +279,8 @@
     }
 
     .content-text {
+      display: flex;
+      flex-direction: column;
       padding: 2rem 4rem;
     }
 
@@ -286,6 +288,11 @@
       display: inline-block;
       overflow-wrap: anywhere;
       word-break: break-all;
+    }
+
+    #content img {
+      max-width: 100%;
+      max-height: 20rem;
     }
 
     ul,
