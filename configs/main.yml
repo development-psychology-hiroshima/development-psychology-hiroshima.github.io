@@ -274,12 +274,12 @@ obog:
         content: 民間企業（ウェディング）
 
 faculties:
-  - name: 梅村　比丘
-    avatar: /images/umemura.webp
-    link: /umemura.html
   - name: 杉村　和美
     avatar: /images/sugimura.webp
     link: /sugimura.html
+  - name: 梅村　比丘
+    avatar: /images/umemura.webp
+    link: /umemura.html
 
 #メニューの部分
 # Menu items to show in the navigation menu.
