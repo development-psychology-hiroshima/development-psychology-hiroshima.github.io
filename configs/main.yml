@@ -297,19 +297,27 @@ menuItems:
     english: Introduction
     url: index.html#title-intro
     show: true
+  - name: メンバー紹介
+    english: Members
+    url: members.html
+    show: true
   - name: 先生の研究活動
     english: Professors' activities
     url: index.html#title-research-professors
     show: true
-  - name: 一例
-    english: An example
-    url: path_to_webpage.html
-    show: false
   - name: 学生の研究活動
     english: Students' activities
     url: research_activity_students.html
     show: true
+  - name: 進行中のプロジェクト
+    english: Current projects
+    url: index.html#title-projects
+    show: true
   - name: 年間スケジュール
     english: Annual schedule
     url: annual_schedule.html
+    show: true
+  - name: お問合せ
+    english: Contact
+    url: contact.html
     show: true
