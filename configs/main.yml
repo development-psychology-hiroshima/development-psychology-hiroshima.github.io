@@ -134,8 +134,6 @@ graduates:
 # 必ず英語の半角スペースを使用してください。
 # DO KEEP WHITESPACE COUNT CONSISTENT
 # DO USE ENGLISH HALF-WIDTH spaces!
-# DO KEEP WHITESPACE COUNT CONSISTENT
-# DO USE ENGLISH HALF-WIDTH spaces!
 members:
   - name: 杉村 和美
     position: 教授
@@ -276,10 +274,15 @@ obog:
 faculties:
   - name: 杉村　和美
     avatar: /images/sugimura.webp
+    email: ksugimura@hiroshima-u.ac.jp
     link: /sugimura.html
   - name: 梅村　比丘
     avatar: /images/umemura.webp
+    email: umemura@hiroshima-u.ac.jp
     link: /umemura.html
+  - name: 学生の研究活動
+    avatar: /images/students.svg
+    link: /research_students.html
 
 #メニューの部分
 # Menu items to show in the navigation menu.
@@ -301,17 +304,9 @@ menuItems:
     english: Members
     url: members.html
     show: true
-  - name: 先生の研究活動
-    english: Professors' activities
-    url: index.html#title-research-professors
-    show: true
-  - name: 学生の研究活動
-    english: Students' activities
-    url: research_activity_students.html
-    show: true
-  - name: 進行中のプロジェクト
-    english: Current projects
-    url: index.html#title-projects
+  - name: 発達研の研究活動
+    english: Research activities
+    url: index.html#title-researches
     show: true
   - name: 年間スケジュール
     english: Annual schedule
