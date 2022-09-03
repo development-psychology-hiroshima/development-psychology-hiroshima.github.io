@@ -273,14 +273,17 @@ obog:
 
 faculties:
   - name: 杉村　和美
+    english: Sugimura Kazumi
     avatar: /images/sugimura.webp
     email: ksugimura@hiroshima-u.ac.jp
     link: /sugimura.html
   - name: 梅村　比丘
+    english: Umemura Tomotaka
     avatar: /images/umemura.webp
     email: umemura@hiroshima-u.ac.jp
     link: /umemura.html
   - name: 学生の研究活動
+    english: Students' Research
     avatar: /images/students.svg
     link: /research_students.html
 
