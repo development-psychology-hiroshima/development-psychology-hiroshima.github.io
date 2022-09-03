@@ -303,13 +303,13 @@ menuItems:
     english: Introduction
     url: index.html#title-intro
     show: true
-  - name: メンバー紹介
-    english: Members
-    url: members.html
-    show: true
   - name: 発達研の研究活動
     english: Research activities
     url: index.html#title-researches
+    show: true
+  - name: メンバー紹介
+    english: Members
+    url: members.html
     show: true
   - name: 年間スケジュール
     english: Annual schedule
