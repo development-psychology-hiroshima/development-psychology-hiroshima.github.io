@@ -42,9 +42,9 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <meta name="theme-color" content="#ffffff" />
-    <script type="module" crossorigin src="/assets/members.66f86879.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/main.360cb5ae.js">
-    <link rel="stylesheet" href="/assets/style.70f32e46.css">
+    <script type="module" crossorigin src="/assets/members.86edcf0e.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/main.1dbf0d5a.js">
+    <link rel="stylesheet" href="/assets/style.94d69d48.css">
     <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
     <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
   <link rel="manifest" href="/manifest.webmanifest"></head>
@@ -65,18 +65,30 @@
     <div id="content">
       <img
         id="banner"
-        src="/images/banners/2022_zemi_fuukei.webp"
+        src="/images/banners/banner_2022_zemi_fuukei.webp"
         alt="ゼミの風景"
       />
       <div class="content-text">
-
+        <div id="app-mount-point"></div>
       </div>
     </div>
 
     
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
     <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy.9f9b90ef.js"></script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/members-legacy.55f8bfbc.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/members-legacy.0752b8a9.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
-  <style></style>
+  <style>
+    #content {
+      padding-top: 3rem;
+    }
+    #app-mount-point {
+      display: contents;
+    }
+    .content-text {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 4rem;
+    }
+  </style>
 </html>
