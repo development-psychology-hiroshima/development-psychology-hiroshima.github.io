@@ -42,9 +42,9 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <meta name="theme-color" content="#ffffff" />
-    <script type="module" crossorigin src="/assets/index.7070ed2f.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/main.1dbf0d5a.js">
-    <link rel="stylesheet" href="/assets/style.94d69d48.css">
+    <script type="module" crossorigin src="/assets/index.085b3c34.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/main.fef24c09.js">
+    <link rel="stylesheet" href="/assets/style.2e15f31f.css">
     <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
     <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
   <link rel="manifest" href="/manifest.webmanifest"></head>
@@ -190,25 +190,26 @@
     </div>
     <div id="container-researches"></div>
 
+    <div class="heading-container" id="title-members">
+      <h1>メンバー紹介</h1>
+    </div>
+    <div id="container-members"></div>
+
     <div class="heading-container" id="title-career-development">
       <h1>卒業生の進路</h1>
     </div>
     <div id="container-career-development"></div>
     
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
-    <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy.9f9b90ef.js"></script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.46715117.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy.061b0929.js"></script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.e9d1df08.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
   <style>
     html,
     body {
-      font-family: "Helvetica Neue", "Noto Sans JP", -apple-system,
-        BlinkMacSystemFont, system-ui, "Noto Serif JP", "Hiragino Sans",
-        "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体, YuGothic,
-        "ヒラギノ角ゴ Pro W3", メイリオ, "Microsoft YaHei", sans-serif;
-      color: #000;
       background: #e8eded;
       overflow-x: hidden;
+      color: #000;
     }
 
     * {
@@ -217,9 +218,9 @@
     }
 
     #splash {
+      background-color: #fff;
       width: 100vw;
       height: 100vh;
-      background-color: #fff;
     }
 
     .heading-container {
@@ -228,38 +229,25 @@
       flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
-      width: 100vw;
+      background-color: #fff;
       padding: 2rem 0;
-      background-color: #ffffff;
+      width: 100vw;
     }
 
     .heading-container > h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #ffffff;
-      background-color: #000000;
+      background-color: #000;
       padding: 0.25rem 1rem;
-    }
-
-    #container-introduction,
-    #container-researches,
-    #container-career-development {
-      padding-top: 2rem;
-      background-color: #e8eded;
-      width: 100vw;
-      display: flex;
-      flex-direction: row;
-      overflow-x: scroll;
-      justify-content: space-evenly;
-      align-items: flex-start;
+      color: #fff;
+      font-weight: 700;
+      font-size: 2rem;
     }
 
     #container-timeline {
+      display: flex;
+      align-items: center;
       background-color: #e8eded;
       width: 100vw;
       min-height: 70vh;
-      display: flex;
-      align-items: center;
       overflow: scroll;
       scrollbar-gutter: stable;
     }
