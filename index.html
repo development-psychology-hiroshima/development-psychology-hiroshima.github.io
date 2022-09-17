@@ -42,9 +42,9 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <meta name="theme-color" content="#ffffff" />
-    <script type="module" crossorigin src="/assets/index.82ed2614.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/main.8dd9e163.js">
-    <link rel="stylesheet" href="/assets/style.4210dde3.css">
+    <script type="module" crossorigin src="/assets/index.98880d99.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/main.e0ba6042.js">
+    <link rel="stylesheet" href="/assets/style.d8d54915.css">
     <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
     <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
   <link rel="manifest" href="/manifest.webmanifest"></head>
@@ -200,6 +200,23 @@
     </div>
     <div id="container-career-development"></div>
 
+    <div class="heading-container" id="title-contact">
+      <h1>お問合せ</h1>
+    </div>
+    <div id="container-contact">
+        <div id="contact-content">
+          <p>
+            学内外より広くゼミ生募集中です！
+          </p>
+          <p>
+            ご興味のある方は，梅村までご連絡ください。
+          </p>
+            <a href="mailto:umemura@hiroshima-u.ac.jp" target="_blank"
+              >梅村まで連絡する
+            </a>
+        </div>
+    </div>
+
     <footer>
       <p><span>Copyright 2012 - </span><span id="copyright-year">2022</span></p>
       <p>Developmental Psychology Hiroshima.</p>
@@ -208,14 +225,14 @@
     
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
     <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy.061b0929.js"></script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.fe0b7721.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.fbb84a4e.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
   <style>
     html,
     body {
-      background: #e8eded;
+      background: var(--color-background, #e8eded);
       overflow-x: hidden;
-      color: #000;
+      color: var(--color-text, #000);
     }
 
     * {
@@ -224,7 +241,7 @@
     }
 
     #splash {
-      background-color: #fff;
+      background-color: var(--color-background-lighter, #fff);
       width: 100vw;
       height: 100vh;
     }
@@ -235,15 +252,15 @@
       flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
-      background-color: #fff;
+      background-color: var(--color-background-lighter, #fff);
       padding: 2rem 0;
       width: 100vw;
     }
 
     .heading-container > h1 {
-      background-color: #000;
+      background-color: var(--color-text, #000);
       padding: 0.25rem 1rem;
-      color: #fff;
+      color: var(--color-background-lighter, #fff);
       font-weight: 700;
       font-size: 2rem;
     }
@@ -251,7 +268,7 @@
     #container-timeline {
       display: flex;
       align-items: center;
-      background-color: #e8eded;
+      background-color: var(--color-background, #e8eded);
       width: 100vw;
       min-height: 30rem;
       overflow: scroll;
