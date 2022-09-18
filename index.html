@@ -42,9 +42,9 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <meta name="theme-color" content="#ffffff" />
-    <script type="module" crossorigin src="/assets/index.19db05d4.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/main.2b1bd3fe.js">
-    <link rel="stylesheet" href="/assets/style.002e4c9f.css">
+    <script type="module" crossorigin src="/assets/index.5068a730.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/main.36e61681.js">
+    <link rel="stylesheet" href="/assets/style.07f0c0cf.css">
     <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
     <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
   <link rel="manifest" href="/manifest.webmanifest"></head>
@@ -60,7 +60,15 @@
         >でアクセスするか、 ブラウザ設定でJavaScriptを有効にしてご利用ください。
       </p>
     </noscript>
-    <!--  Photo by Alfons Morales on Unsplash-->
+
+    <div id="loading">
+      <span class="loader"></span>
+      <h2 id="loading-text">
+        LOADING<span id="load1">.</span><span id="load2">.</span
+        ><span id="load3">.</span>
+      </h2>
+    </div>
+
     <div id="splash"></div>
 
     <div id="project-showcase"></div>
@@ -204,17 +212,13 @@
       <h1>お問合せ</h1>
     </div>
     <div id="container-contact">
-        <div id="contact-content">
-          <p>
-            学内外より広くゼミ生募集中です！
-          </p>
-          <p>
-            ご興味のある方は，梅村までご連絡ください。
-          </p>
-            <a href="mailto:umemura@hiroshima-u.ac.jp" target="_blank"
-              >梅村まで連絡する
-            </a>
-        </div>
+      <div id="contact-content">
+        <p>学内外より広くゼミ生募集中です！</p>
+        <p>ご興味のある方は，梅村までご連絡ください。</p>
+        <a href="mailto:umemura@hiroshima-u.ac.jp" target="_blank"
+          >梅村まで連絡する
+        </a>
+      </div>
     </div>
 
     <footer>
@@ -225,7 +229,7 @@
     
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
     <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy.061b0929.js"></script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.0e8f6f8e.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.7111d3a2.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
   <style>
     html,
@@ -234,18 +238,30 @@
       overflow-x: hidden;
       color: var(--color-text, #000);
     }
-
     * {
       margin: 0;
       padding: 0;
     }
-
     #splash {
       background-color: var(--color-background-lighter, #fff);
       width: 100vw;
       height: 100vh;
     }
-
+    #loading {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+      background-color: var(--color-background-lighter, #fff);
+      width: 100vw;
+      height: 100vh;
+      color: var(--color-text, #000);
+      overscroll-behavior-y: contain;
+    }
     .heading-container {
       display: flex;
       flex-direction: column;
@@ -256,7 +272,6 @@
       padding: 2rem 0;
       width: 100vw;
     }
-
     .heading-container > h1 {
       background-color: var(--color-text, #000);
       padding: 0.25rem 1rem;
@@ -264,7 +279,6 @@
       font-weight: 700;
       font-size: 2rem;
     }
-
     #container-timeline {
       display: flex;
       align-items: center;
@@ -274,12 +288,10 @@
       overflow: scroll;
       scrollbar-gutter: stable;
     }
-
     @media screen and (max-width: 768px) {
       .heading-container > h1 {
         font-size: 1.5rem;
       }
-
       #container-introduction,
       #container-researches {
         flex-direction: column;
