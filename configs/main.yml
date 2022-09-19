@@ -2,15 +2,17 @@
 # title: 研究タイトル
 # url: 資料のリンク
 # downloadTitle - ファイルをダウンロードする際のファイル名
+# 内容の前のスペース数を、必ず前文と一致にしてください。
+# 必ず英語の「半角スペース」を使用してください。
 projects:
   - title: 赤ちゃんの観察研究
     url: https://development.hiroshima-u.ac.jp/ad/HARP2_ver8.pdf
     downloadTitle: 赤ちゃんの観察研究
     image: https://development.hiroshima-u.ac.jp/images/ad/HARP2_ver8.jpg
 
-# HPのバックグラウンド画像。
+# HPのバックグラウンド画像
 # lazyloadでは，より小さな画像を読み込むことで，
-# ユーザのインタネットが遅いでも，画像を読み込むことができるようになる
+# ユーザのインタネットが遅いでも，画像を読み込めるようになる
 # lazyload機能を欲しくない場合，この設定を null にしてください。
 backgrounds:
   lazyload: /backgrounds/background.lazyload.webp
@@ -18,9 +20,7 @@ backgrounds:
 
 # 「研究室の話題」
 # 内容の前のスペース数を、必ず前文と一致にしてください。
-# 必ず英語の半角スペースを使用してください。
-# DO KEEP WHITESPACE COUNT CONSISTENT
-# DO USE ENGLISH HALF-WIDTH spaces!
+# 必ず英語の「半角スペース」を使用してください。
 awards:
   - year: 2022
     text: 杉村和美が共同執筆した『アイデンティティ 時間と関係を生きる』が出版されました。
@@ -104,9 +104,7 @@ awards:
 
 # 「卒業生の進路」の部分
 # 内容の前のスペース数を、必ず前文と一致にしてください。
-# 必ず英語の半角スペースを使用してください。
-# DO KEEP WHITESPACE COUNT CONSISTENT
-# DO USE ENGLISH HALF-WIDTH spaces!
+# 必ず英語の「半角スペース」を使用してください。
 graduates:
   - year: 2021
     undergrad: 学部生(3名)：大学院進学(2名)，民間企業(1名)
@@ -134,9 +132,7 @@ graduates:
 
 # 「メンバー紹介」の部分
 # 内容の前のスペース数を、必ず前文と一致にしてください。
-# 必ず英語の半角スペースを使用してください。
-# DO KEEP WHITESPACE COUNT CONSISTENT
-# DO USE ENGLISH HALF-WIDTH spaces!
+# 必ず英語の「半角スペース」を使用してください。
 members:
   - name: 杉村　和美
     position: 教授
@@ -151,7 +147,7 @@ members:
   - name: 梅村　比丘
     position: 准教授
     image: https://development.hiroshima-u.ac.jp/images/people/Tomo_Umemura.jpg
-    intro: アメリカの大学（<a href="https://www.stonybrook.edu/psychology/" target="_blank">Stony Brook University</a>）･大学院（<a href="https://he.utexas.edu/hdfs" target="_blank">University of Texas at Austin</a>）で勉強した後、チェコ共和国の大学（<a href="http://vsichnimojiblizci.fss.muni.cz/en/o-nas" target="_blank">Masaryk University</a>）で4年間ポスドク研究員をしました。アタッチメント理論を軸に、人間関係の発達について幼児期から成人期以降までの包括的な理解を目指して研究しています。広島大学では、特にアタッチメントとアイデンティティの関連について探求していく予定です。一緒にアタッチメントの研究をしたい人も、ぜひ来てください！
+    intro: アメリカの大学（<a href="https://www.stonybrook.edu/psychology/" target="_blank">Stony Brook University</a>）･大学院（<a href="https://he.utexas.edu/hdfs" target="_blank">University of Texas at Austin</a>）で勉強した後、チェコ共和国の大学（<a href="https://vsichnimojiblizci.fss.muni.cz/en/o-nas" target="_blank">Masaryk University</a>）で4年間ポスドク研究員をしました。アタッチメント理論を軸に、人間関係の発達について幼児期から成人期以降までの包括的な理解を目指して研究しています。広島大学では、特にアタッチメントとアイデンティティの関連について探求していく予定です。一緒にアタッチメントの研究をしたい人も、ぜひ来てください！
     interest: アタッチメント理論、親子関係、社会性の発達、生涯発達
     others:
       - title: 連絡先
@@ -239,7 +235,7 @@ obogs:
         content: <a href="https://sites.google.com/site/studygroup13csrm/" target="_blank">https://sites.google.com/site/studygroup13csrm/</a>
   - name: 西田　若葉
     position: 宮崎産業経営大学 講師（2019年度博士課程後期満期退学）
-    intro: 青年が重要な選択をえらぶときに悩んだ場合、どのように対処したらいいかを解 明していきたいです。特に進路決定の場面（就職活動での悩みや就活うつなど）にも興味があります。
+    intro: 青年が重要な選択をえらぶときに悩んだ場合、どのように対処したらいいかを解明していきたいです。特に進路決定の場面（就職活動での悩みや就活うつなど）にも興味があります。
     interest: 青年期以降のアイデンティティ形成，青年心理学，認知心理学，発達心理学
   - name: 日原　尚吾
     position: 松山大学経営学部 准教授（2019年度博士号取得）
@@ -291,8 +287,8 @@ faculties:
     link: /research_students.html
 
 #メニューの部分
-# Menu items to show in the navigation menu.
-# please DO USE ENGLISH HALF-WIDTH spaces!
+# 内容の前のスペース数を、必ず前文と一致にしてください。
+# 必ず英語の「半角スペース」を使用してください。
 menuItems:
   - name: HOME
     english: Home
