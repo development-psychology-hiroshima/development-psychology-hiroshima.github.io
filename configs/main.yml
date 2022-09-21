@@ -316,5 +316,5 @@ menuItems:
     show: true
   - name: お問合せ
     english: Contact
-    url: contact.html
+    url: index.html#title-contact
     show: true
